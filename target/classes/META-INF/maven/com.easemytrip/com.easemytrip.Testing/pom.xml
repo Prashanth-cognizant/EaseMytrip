@@ -4,11 +4,17 @@
   <artifactId>com.easemytrip.Testing</artifactId>
   <version>0.0.1-SNAPSHOT</version>
    <dependencies>
-  	<dependency>
-  		<groupId>com.AutomationFrameWork</groupId>
-  		<artifactId>com.AutomationFrameWork.Template</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.11.0</version> </dependency>
+
+
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.8.0</version>
+    </dependency>
   	<!-- Source: https://mvnrepository.com/artifact/org.apache.commons.io/commonsIO -->
 <!-- Source: https://mvnrepository.com/artifact/commons-io/commons-io -->
 <dependency>
